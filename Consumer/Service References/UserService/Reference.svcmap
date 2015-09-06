@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="4cb131fa-dbd4-4ead-b48d-e0617db1400d" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="net.pipe://localhost/UserService/mex" Protocol="mex" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="service.wsdl" MetadataType="Wsdl" ID="1cf6657a-8755-420a-831f-fb5dd66a9c76" SourceId="1" SourceUrl="net.pipe://localhost/UserService/mex" />
+    <MetadataFile FileName="UserService.wsdl" MetadataType="Wsdl" ID="3e6a6a78-5fb7-475b-835c-7165ca8bc1e9" SourceId="1" SourceUrl="net.pipe://localhost/UserService/mex" />
+    <MetadataFile FileName="service.xsd" MetadataType="Schema" ID="a8bb9692-8f30-4443-a620-af47015b44db" SourceId="1" SourceUrl="net.pipe://localhost/UserService/mex" />
+    <MetadataFile FileName="service1.xsd" MetadataType="Schema" ID="c570fbc7-18c7-4f8d-bb20-924e4d8b98ae" SourceId="1" SourceUrl="net.pipe://localhost/UserService/mex" />
+    <MetadataFile FileName="Spike.Contracts.Users.xsd" MetadataType="Schema" ID="2f991b03-3e65-40be-a4ed-30639cf76563" SourceId="1" SourceUrl="net.pipe://localhost/UserService/mex" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>

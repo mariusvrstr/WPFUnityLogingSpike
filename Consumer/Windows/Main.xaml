@@ -1,0 +1,26 @@
+﻿<Window x:Class="Spike.Consumer.Windows.Main"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:controls="clr-namespace:Spike.Consumer.Controls"
+        
+        Title="Main" Height="300" Width="300">
+    <!-- xmlns:viewModels="clr-namespace:Spike.Consumer.Models" -->
+    <!--<Window.Resources>
+        <viewModels:UserListViewModel x:Key="ViewModel" />
+    </Window.Resources>-->
+
+    <Grid Background="#FF2C7293">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="Auto" />
+        </Grid.RowDefinitions>
+
+        <Label Content="User List" Grid.Row="0" Foreground="#FF061E3C" FontSize="20"/>
+        <controls:UserListControl DataContext="{Binding Users}" Grid.Row="1" />
+        <StackPanel Grid.Row="2" Orientation="Horizontal">
+            <Button Content="Add user" Width="100" />
+        </StackPanel>
+        
+    </Grid>
+</Window>
