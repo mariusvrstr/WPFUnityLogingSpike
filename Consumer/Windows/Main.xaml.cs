@@ -5,14 +5,14 @@
     
     public partial class Main : Window
     {
+        protected UserListViewModel Model
+        {
+            get { return (UserListViewModel)Resources["ViewModel"]; }
+        } 
+        
         public Main()
         {
             InitializeComponent();
-
-            var viewModel = new UserListViewModel();
-            viewModel.GetLatestUsers();
-
-            this.DataContext = viewModel;
         }
     }
 }

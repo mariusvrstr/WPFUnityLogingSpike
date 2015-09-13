@@ -16,6 +16,11 @@
         public event PropertyChangedEventHandler PropertyChanged;
         public IEnumerable<User> Users { get; set; }
 
+        public void Initialize()
+        {
+            this.GetLatestUsers();
+        }
+
         public void GetLatestUsers()
         {
             this.Users = GetUsersFromService();
